@@ -39,25 +39,6 @@ Dramas like this make it human.	0.8055	3
 Requirements
 Install dependencies using:
 
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
-Training
-To fine-tune the models, run:
-
-bash
-Kopyala
-Düzenle
-python train_bert.py  # For English BERT
-python train_berturk.py  # For Turkish BERTurk
-Evaluation
-After training, evaluate the models on the test set using:
-
-bash
-Kopyala
-Düzenle
-python evaluate.py
 Warnings & Notes
 Some weights of BertForSequenceClassification were newly initialized and not loaded from the pre-trained model.
 Hugging Face authentication warnings may appear, but training and inference are not affected.
